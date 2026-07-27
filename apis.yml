@@ -1,7 +1,19 @@
 aid: hostie
 name: Hostie
-description: Hostie is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hostie is an AI-powered virtual concierge for restaurants that answers every
+  call, text, email, and message in the restaurant's own voice so operators
+  never miss a guest and staff can stay focused on in-room service. The
+  conversational AI platform handles phone volume, captures reservations and
+  takeout orders, fields private-event inquiries, and unifies guest
+  communication across calls, texts, emails, Instagram, and Google Maps, with
+  live call transcripts, multilingual support (20 languages), guest history,
+  and data ownership. Restaurant partners include Tonchin, Trader Vic's, Flour +
+  Water, The Slanted Door Group, and The Stinking Rose Group. Hostie raised a
+  $12M Series A led by Obvious Ventures (July 2026), bringing total funding to
+  $16M. Hostie is a business SaaS product and does not currently publish a
+  public API, SDKs, or developer documentation; this profile is maintained in
+  the API Evangelist network for company/portfolio tracking.
 url: https://raw.githubusercontent.com/api-evangelist/hostie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,30 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6803352d10c80e32009ee356/680335ee22d820a342762241_logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Restaurants
+- Hospitality
+- Conversational AI
+- Voice AI
+- Guest Communication
+- Reservations
+- Restaurant Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://hostie.ai
+- type: Pricing
+  url: https://hostie.ai/pricing
+- type: Blog
+  url: https://hostie.ai/blog
+- type: SignUp
+  url: https://hostie.ai/sign-up
+- type: Login
+  url: https://hostie.ai/log-in
+- type: TermsOfService
+  url: https://hostie.ai/terms-conditions
+- type: PrivacyPolicy
+  url: https://hostie.ai/privacy-policy
+- type: DomainSecurity
+  url: security/hostie-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
